@@ -15,7 +15,7 @@ Here is a couple of screenshoots of the Home Page, Movies Search and Comparing m
 
 ## Movies Search
 
-![movie2](https://user-images.githubusercontent.com/67807290/117582774-7d719980-b0b8-11eb-9df7-a4c523b770ab.jpg)
+![movie2](https://user-images.githubusercontent.com/67807290/117583937-dcd2a800-b0be-11eb-81e9-4db61a337005.jpg)
 
 ## Comparing Movies
 ![movie3](https://user-images.githubusercontent.com/67807290/117582775-7f3b5d00-b0b8-11eb-99b1-d9390e97a941.jpg)

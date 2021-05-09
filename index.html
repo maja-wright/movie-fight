@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css" integrity="sha512-byErQdWdTqREz6DLAA9pCnLbdoGGhXfU6gm1c8bkf7F51JVmUBlayGe2A31VpXWQP+eiJ3ilTAZHCR3vmMyybA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="has-background-primary-light">
+    <section class="hero is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Movie Fight
+            <span class="icon">
+              <i class="fas fa-film"></i>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    
+    <div class="main pt-6 tutorial2">
+      <section class="tutorial">
+        <div class="container p-2">
+          <h1 class="title has-text-centered has-text-primary">Search For Two Movies</h1>
+          <p class="subtitle has-text-centered has-text-primary">We will tell you which is best!</p>
+        </div>
+      </section>
+  
+        <div class="container p-6">
+          <div class="columns is-centered">
+            <div class="column is-two-fifths">
+              <div id="left-autocomplete"></div>
+              <div id="left-summary"></div>
+            </div>
+  
+            <div class="column is-two-fifths">
+              <div id="right-autocomplete"></div>
+              <div id="right-summary"></div>
+            </div>
+          </div>
+        </div>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
